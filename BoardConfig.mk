@@ -102,6 +102,7 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.console=ttyMSM0 \
     androidboot.hardware=qcom \
     androidboot.usbcontroller=a600000.dwc3 \
+    androidboot.init_fatal_reboot_target=recovery \
     console=ttyMSM0,115200n8 \
     earlycon=msm_geni_serial,0xa90000 \
     loop.max_part=7 \
