@@ -48,3 +48,6 @@ persist.service.pcsync.enable=0
 
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
+
+# IOP
+vendor.iop.enable_uxe=1
