@@ -54,3 +54,6 @@ vendor.iop.enable_uxe=1
 
 # Rescue Party
 persist.sys.disable_rescue=true
+
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
