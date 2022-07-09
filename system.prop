@@ -45,3 +45,6 @@ ro.config.dha_tunnable=1
 # Smoothens UI
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
+
+# Dexopt
+dalvik.vm.dex2oat64.enabled=true
