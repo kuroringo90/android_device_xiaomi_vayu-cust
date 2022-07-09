@@ -51,3 +51,6 @@ dalvik.vm.dex2oat64.enabled=true
 
 # IOP
 vendor.iop.enable_uxe=1
+
+# Rescue Party
+persist.sys.disable_rescue=true
