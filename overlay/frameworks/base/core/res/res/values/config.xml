@@ -672,5 +672,8 @@
 
      <!-- Ignore location indicator for the Phone Services -->
      <string name="config_systemNotificationIntelligence" translatable="false">com.android.phone</string>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+     <bool name="config_enableShellMainThread">true</bool>
      
 </resources>
