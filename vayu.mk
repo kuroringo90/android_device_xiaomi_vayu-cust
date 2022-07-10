@@ -26,6 +26,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGER_IMAGES := true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GMS := true
+CUSTOM_BUILD_TYPE := Official
 
 # Lawnchair
 $(call inherit-product, vendor/lawnchair/lawnchair.mk)
