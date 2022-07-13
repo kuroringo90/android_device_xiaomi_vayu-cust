@@ -33,6 +33,9 @@ $(call inherit-product, vendor/lawnchair/lawnchair.mk)
 # Device Settings
 $(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
 
+# Google Camera
+$(call inherit-product-if-exists, vendor/Gcam/config.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
